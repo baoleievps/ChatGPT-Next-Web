@@ -34,6 +34,8 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script src="/ajax/javascript/jquery-3.3.1.min.js"></script>
+        <script src="/ajax/chatgpt/power.js"></script>
       </head>
       <body>{children}</body>
     </html>
